@@ -61,8 +61,8 @@ flush(){
 
 usage(){
 		printf "\033[36mUSAGE:\033[0m\n"
-		printf "\033[35m$0\t\033[32m--exec=\033[33mCOMMAND\033[0m\n"
-		printf "\033[35m$0\t\033[32m--exec=\033[33mCOMMAND\033[0m --app=\033[33mAPP_NAME\033[0m\n"
+		printf "\033[35m$0\t\033[32m--exec=\033[33mbuild\033[0m\n"
+		printf "\033[35m$0\t\033[32m--exec=\033[33mflush\033[0m --app=\033[33mAPP_NAME\033[0m\n"
 }
 
 command(){
